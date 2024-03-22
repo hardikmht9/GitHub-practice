@@ -23,9 +23,9 @@ jobs:
 
         uses: actions/setup-python@v2
 
-        with:
+        # with:
 
-          python-version: '3.11'
+        #   python-version: '3.11'
 
       - name: run python program
 
@@ -43,7 +43,7 @@ jobs:
     env: 
 
       First_name: "Hardik"
-      
+
     runs-on: self-hosted
     steps:
 
