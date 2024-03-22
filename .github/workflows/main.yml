@@ -34,7 +34,7 @@ jobs:
   Example_environment_variables:
 
     needs: Runs_the_Python_Program
-      # runs-on: self-hosted
+    
 
     # runs-on: ubuntu-latest
 
@@ -43,7 +43,8 @@ jobs:
     env: 
 
       First_name: "Hardik"
-
+      
+    runs-on: self-hosted
     steps:
 
       - name: Accessing the environment variable
