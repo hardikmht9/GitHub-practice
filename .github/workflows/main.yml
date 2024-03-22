@@ -34,14 +34,15 @@ jobs:
   Example_environment_variables:
 
     needs: Runs_the_Python_Program
+      runs-on: self-hosted
 
-    runs-on: ubuntu-latest
+    # runs-on: ubuntu-latest
 
     if: ${{always()}}
 
     env: 
 
-      First_name: "Divpreet"
+      First_name: "Hardik"
 
     steps:
 
