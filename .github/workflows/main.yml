@@ -52,7 +52,7 @@ jobs:
  
   secret_example:
 
-    needs: Example_environment_variables
+    # needs: Example_environment_variables
 
     runs-on: ubuntu-latest
 
